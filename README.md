@@ -4,9 +4,9 @@ This repository describes the methods used in our article: "AVALIATIVIDADE EM CO
 
 The authors are:
 
-- Rodrigo Esteves de Lima Lopes [^footnote1] [email](mailto:rll307@unicamp,br)
-- Karen Mercuri Macedo [^footnote2][email](mailto:karen.tmm@gmail.com )
-- Maristella Gabardo[^footnote3][email](mailto:maris.gabardo@ifpr.edu.br)
+- Rodrigo Esteves de Lima Lopes [email](mailto:rll307@unicamp,br) [^footnote1]
+- Karen Mercuri Macedo  [email](mailto:karen.tmm@gmail.com ) [^footnote2]
+- Maristella Gabardo [email](mailto:maris.gabardo@ifpr.edu.br) [^footnote3]
 
 [^footnote1]: UNICAMP
 [^footnote2]: UNICAMP
