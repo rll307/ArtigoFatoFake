@@ -1,0 +1,94 @@
+---
+title: |
+  | Script for article: 
+  | AVALIATIVIDADE EM COMENTÁRIOS EM POSTAGENS DEDICADAS À VERIFICAÇÃO DE NOTÍCIAS FALSAS NAS ELEIÇÕES PRESIDENCIAIS DE 2018
+author: |
+  | - Rodrigo Esteves de Lima-Lopes 
+  | State University of Campinas 
+  | rll307@unicamp.br
+  | - Karen Mercuri Macedo
+  | State University of Campinas 
+  | karen.tmm@gmail.com
+  | - Maristella Gabardo
+  | Instituto Federal do Paraná
+  | maris.gabardo@ifpr.edu.br
+  
+output: github_document
+---
+# Thank you note
+
+We hope this script is useful for researchers in fields of linguistics and applied linguistics. Unfortunally due to regulations form the committee for research ethics, we cannot provide data in this repository. If you have any further questions, please feel free to drup us a line.
+
+# General Information
+
+This repository describes the methods used in our article: "AVALIATIVIDADE EM COMENTÁRIOS EM POSTAGENS DEDICADAS À VERIFICAÇÃO DE NOTÍCIAS FALSAS NAS ELEIÇÕES PRESIDENCIAIS DE 2018". 
+
+The article is still in peer evaluation, soon as we have it published, we will post it here. 
+
+This guide describes the many procedures we had during the research had:
+
+1. Data collection
+1. R scripts for data analysis 
+	- R scripts for visualisation
+	- R scripts for concordancing
+	
+
+# Data collection
+The data in this article was collect from somes posts by [Fato ou Fake](https://g1.globo.com/fato-ou-fake/) in [Facebook](https://pt-br.facebook.com/fatooufake/), a information checking agency in Brazil. Please, see the article for specific dates. 
+
+Unfortunately, the tool used for data collection, Netvizz, is no longer working because of Facebook's new policies. Today an alternative would be [Facepage](https://github.com/strohne/Facepager). 
+
+
+All data was analised using [R](https://www.r-project.org/), the following pacakes were part of our methodology:
+
+## Loading packages
+
+Each of this packages has a funcion in data analysis:
+
+1. [Quanteda](https://quanteda.io/): Package for text-data processing and concordancing
+2. [Ggplot2](https://ggplot2.tidyverse.org/): Package for data visualisation
+3. [Dplyr](https://dplyr.tidyverse.org/): Package for data manipulation
+4. [Forcats](https://forcats.tidyverse.org/): Package for handling categorical variables
+5. [Readr](https://github.com/tidyverse/readr): Package for reading CSV (an other kinds) of rectangular data
+
+```{r, eval=FALSE, echo=TRUE}
+library(quanteda)
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(forcats)
+```
+
+## Loading files
+
+After the packages were loaded, it is time to load the comments in R. Netvizz used to generate **\tab** delimited files. This command will open a window and let you choose the file. 
+
+```{r,eval=FALSE, echo=TRUE}
+corpus.FF.df <- read_delim(file.choose(), "\t", escape_double = FALSE, trim_ws = TRUE)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
