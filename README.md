@@ -38,7 +38,7 @@ This guide describes the many procedures we had during the research:
 
 # Data collection
 
-The data in this article was collect from some posts by [Fato ou
+The data in this article were collect from some posts by [Fato ou
 Fake](https://g1.globo.com/fato-ou-fake/) in
 [Facebook](https://pt-br.facebook.com/fatooufake/), a information
 checking agency in Brazil. Please, see the article for specific dates.
